@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qrdecimal *.css
+recursive-include qrdecimal *.csv
+recursive-include qrdecimal *.html
+recursive-include qrdecimal *.ico
+recursive-include qrdecimal *.js
+recursive-include qrdecimal *.json
+recursive-include qrdecimal *.md
+recursive-include qrdecimal *.png
+recursive-include qrdecimal *.py
+recursive-include qrdecimal *.svg
+recursive-include qrdecimal *.txt
+recursive-exclude qrdecimal *.pyc
